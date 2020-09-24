@@ -25,6 +25,8 @@
 ## <strong>About This Project:</strong>
 
 A fully responsive mock of [Wattpad](https://www.wattpad.com/); a popular story-telling website geared towards imaginitave people whom all share a love for reading and/or writing. With various, features and color themes applied, instead.
+<br>
+<br>
 
 <p align="center"><strong>Desktop navigation version:</strong></p>
 
@@ -35,9 +37,12 @@ A fully responsive mock of [Wattpad](https://www.wattpad.com/); a popular story-
 <p align="center"><strong>Mobile navigation version:</strong></
 <br>
 
+<div align="center">
+
 ![Project Screenshot](images/screenshot-mobile.gif)
 
-</p>
+</div>
+
 ## <strong>Built With:</strong>
 
 This project was built using Tailwindcss, a css framework. containing a series of styles that're directly applied in to the html, loosing the hastle of adding in custom styles to your stylesheets.
