@@ -1,5 +1,6 @@
 <!-- PROJECT SHIELDS -->
 
+![GitHub version doc](https://img.shields.io/badge/Version-1.0.0-red)
 ![GitHub last commit](https://img.shields.io/github/last-commit/RachelNapier/writers_block_landing_page?style=flat-square)
 
 <!-- PROJECT LOGO -->
