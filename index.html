@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writer's Block</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <header
+      class="fixed z-10 w-full lg:px-16 px-8 bg-gray-100 flex flex-wrap items-center py-4 shadow-md"
+    >
+      <!-- left -->
+      <div class="flex-1 flex justify-between items-center">
+        <img
+          src="../images/icon-small.png"
+          alt="logo"
+          class="mr-2 cursor-pointer h-12 md:h-16"
+        />
+      </div>
+      <label for="menu-toggle" class="cursor-pointer md:hidden block">
+        <svg
+          class="fill-current text-indigo-600 hover:text-indigo-400 transition ease-in duration-150 h-6 w-6"
+          viewBox="0 0 20 20"
+          xmlns="http://wwww.w3.org/2000/svg"
+        >
+          <title>menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </label>
+      <input type="checkbox" class="hidden" id="menu-toggle" />
+      <!-- right -->
+
+      <nav class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+        <ul class="md:flex items-center justify-between pt-4 md:pt-0">
+          <li>
+            <a
+              class="md:p-4 py-3 px-1 block font-semibold rounded text-gray-700 hover:text-gray-900 hover:bg-gray-300"
+              href="#section-writing"
+              >Writing Opportunities</a
+            >
+          </li>
+          <li>
+            <a
+              class="md:p-4 py-3 px-1 block font-semibold rounded text-gray-700 hover:text-gray-900 hover:bg-gray-300"
+              href="#section-testimonials"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a
+              class="md:p-4 py-3 px-1 block font-semibold rounded text-gray-700 hover:text-gray-900 hover:bg-gray-300"
+              href="#footer-contact"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="text-indigo-100 py-40 px-10 bg-gradient-to-r from-purple-600 to-indigo-600 text-indigo-100"
+        id="section-hero"
+      >
+        <div class="container mx-auto flex md:flex justify-between">
+          <!-- left -->
+          <div class="text-center lg:text-left lg:w-1/2 mb-0 md:px-6 md:mb-10">
+            <h1
+              class="text-2xl font-semibold xl:text-5xl lg:text-4xl md:text-3xl text-gray-100 mb-4 md:mb-6"
+            >
+              Hi, we're
+              <span class="p-2 bg-teal-500 rounded text-teal-800 font-bold"
+                >Writer's Block</span
+              >
+            </h1>
+            <h2 class="text-xl md:text-2xl font-semibold mb-2">
+              The world's up and coming social storytelling platfrom
+            </h2>
+            <p class="text-lg md:text-xl text-indigo-200 mb-8">
+              WB connects a global community of 80 million readers and writers
+              through the power of story.
+            </p>
+
+            <a
+              href="#"
+              class="font-semibold inline-block text-xs md:text-lg py-3 px-6 bg-gray-500 hover:bg-gray-400 text-gray-800 hover:text-gray-700 mr-2 transform hover:scale-110 shadow-md hover:shadow-lg transition ease-in-out duration-150 rounded uppercase"
+              >Login</a
+            >
+            <a
+              href="#"
+              class="font-semibold inline-block text-xs md:text-lg py-3 px-6 bg-yellow-500 hover:bg-yellow-400 text-yellow-800 hover:text-yellow-700 transform hover:scale-110 shadow-md hover:shadow-lg transition ease-in-out duration-150 rounded uppercase"
+              >Sign Up</a
+            >
+          </div>
+          <!-- right -->
+          <div class="lg:w-1/2 md:px-6">
+            <img
+              src="../images/hero.png"
+              alt="Computer and writing pad"
+              class="hidden lg:inline-flex md:auto lg:w-full"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="px-10 py-16 md:py-20 lg:py-48" id="section-writing">
+        <div class="container mx-auto">
+          <h3
+            class="text-xl md:text-3xl mb-10 md:mb-20 font-bold text-center"
+            id="section-primary--main"
+          >
+            ⎗ Writing Opportunities ⎘
+          </h3>
+          <div class="flex flex-wrap text-center mb-12 md:mb-16 lg:mb-20">
+            <div class="md:text-left text-gray-700 md:w-1/2 md:px-10">
+              <h4 class="text-lg md:text-xl lg:text-2xl font-semibold mb-4">
+                Get adapted to a movie or TV series 🎥
+              </h4>
+              <p class="text-left mb-6 md:mb-8">
+                WB Studios discovers untapped, unsigned, and talented writers on
+                Writer's Block and connects them to global multi-media
+                entertainment companies.
+              </p>
+              <p class="text-left mb-4 md:mb-8 font-semibold">
+                <span class="p-1 bg-teal-500 rounded text-teal-800 font-bold"
+                  >Writer's Block</span
+                >
+                works with partners <u>such as:</u>
+              </p>
+              <ul
+                class="w-3/4 flex justify-start md:justify-between text-center mb-8 md:mb-0"
+              >
+                <li class="mr-10">
+                  <a href="https://netflix.com" target="_blank">
+                    <img
+                      src="../images/netflix-icon.png"
+                      alt="Netflix"
+                      class="pt-2 w-auto"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://hulu.com" target="_blank">
+                    <img
+                      src="../images/hulu-icon.png"
+                      alt="Hulu"
+                      class="pt-2 w-auto"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-16 md:mb-0 md:w-1/2 md:px-10">
+              <img
+                src="../images/img-2.png"
+                alt="electronics displaying a movie"
+                class="md:w-auto"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col-reverse md:flex-row items-center">
+            <div class="md:w-1/2 md:px-10">
+              <img src="../images/img-1.png" alt="books" class="md:w-auto" />
+            </div>
+            <div class="md:text-left text-gray-700 md:w-1/2 md:px-10">
+              <h5
+                class="text-center md:text-left text-lg md:text-xl lg:text-2xl font-semibold mb-4"
+              >
+                Get published 📘
+              </h5>
+              <p class="text-left mb-6 md:mb-8">
+                WB Books aspires to recognize and reflect diverse voices by
+                taking Writer's Block stories to published books and onto
+                bookshelves around the world
+              </p>
+              <a
+                href="#"
+                target="_blank"
+                class="font-semibold inline-block text-sm md:text-md mb-8 md:mb-0 py-1 px-3 md:py-2 md:px-4 lg:py-3 lg:px-5 bg-indigo-500 hover:bg-indigo-400 text-indigo-800 hover:text-indigo-700 shadow-md hover:shadow-lg transition ease-in-out duration-150 rounded"
+                >Checkout out some of our recents →</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-gray-200 px-10 py-16 md:py-20 lg:py-40"
+        id="section-testimonials"
+      >
+        <div class="container mx-auto">
+          <h5
+            class="text-indigo-100 text-xl md:text-3xl mb-4 md:mb-20 font-bold text-center"
+            id="section-primary--main-2"
+          >
+            ✓ Testimonials ✓
+          </h5>
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-1/3 px-2 mb-4">
+              <div class="bg-white rounded shadow py-2">
+                <p class="italic text-base px-6 mb-2">
+                  "Having been active on WB in the last year, I came accross so
+                  many unknown but brilliant writers, finding so many great
+                  stories in the thriller genre."
+                </p>
+                <div class="stars px-6 mb-4">★ ★ ★ ★ ★</div>
+                <div class="px-6 mb-2">
+                  <img
+                    src="../images/person-icon.png"
+                    alt="Person"
+                    class="inline-block border-solid border-2 border-gray-700 rounded-full w-auto h-4 md:h-14 lg:h-16"
+                  />
+                </div>
+                <p class="text-gray-600 text-xs md:text-sm px-6">
+                  Levi Ackerman
+                  <span class="hover:text-red-500">(@TITAN_SLAYR06)</span>
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 px-2 mb-4">
+              <div class="bg-white rounded shadow py-2">
+                <p class="italic text-base px-6 mb-2">
+                  "When I joined WB, I was unsure of how good my writing skills
+                  were but, I gained a second family who were as passionate
+                  about reading and writing as I am."
+                </p>
+                <div class="stars px-6 mb-4">★ ★ ★ ★ ★</div>
+                <div class="px-6 mb-2">
+                  <img
+                    src="../images/person-icon-2.jpg"
+                    alt="Person"
+                    class="inline-block border-solid border-2 border-gray-700 rounded-full w-auto h-4 md:h-14 lg:h-16"
+                  />
+                </div>
+                <p class="text-gray-600 text-xs md:text-sm px-6">
+                  Sana Kurata
+                  <span class="hover:text-red-500">(@S.KURATAX)</span>
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 px-2 mb-4">
+              <div class="bg-white rounded shadow-lg py-2">
+                <p class="italic text-gray-800 text-base px-6 mb-2">
+                  "This site gave me opportunities I never thought possible. It
+                  connected me to a world I had only imagined. I don't know how
+                  else to say it changed my life!"
+                </p>
+                <div class="stars px-6 mb-4">★ ★ ★ ★ ★</div>
+                <div class="px-6 mb-2">
+                  <img
+                    src="../images/person-icon-3.jpg"
+                    alt="Person"
+                    class="inline-block border-solid border-2 border-gray-700 rounded-full w-auto h-4 md:h-14 lg:h-16"
+                  />
+                </div>
+                <p class="text-gray-600 text-xs md:text-sm px-6">
+                  Tom Laurent
+                  <span class="hover:text-red-500">(@LAURENTX)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer-contact">
+      <div class="container mx-auto px-6 pt-10 pb-6">
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-1/4 text-center md:text-left">
+            <h6 class="uppercase mb-6 font-bold">Links</h6>
+            <ul class="mb-4">
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >FAQ</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Help</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 text-center md:text-left">
+            <h6 class="uppercase mb-6 font-bold">Legal</h6>
+            <ul class="mb-4">
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Terms</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Privacy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 text-center md:text-left">
+            <h6 class="uppercase mb-6 font-bold">Social</h6>
+            <ul class="mb-4">
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/4 text-center md:text-left">
+            <h6 class="uppercase mb-6 font-bold">Company</h6>
+            <ul class="mb-4">
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Official Blog</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >About Us</a
+                >
+              </li>
+              <li class="mt-2">
+                <a
+                  href="#"
+                  class="hover:underline text-gray-600 hover:text-orange-500"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
