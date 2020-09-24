@@ -66,19 +66,19 @@ To use this framwork, follow these steps taken directly from the <u>Tailwindcss 
 
 ![Tailwind Setup Screenshot](images/setup-5.png)
 
-<p align="center">
+<div align="center">
 
 For more infromation on the setup, checkout the docs here → [Tailwindcss Documentations](https://tailwindcss.com/docs/installation)
 
-</p>
+</div>
 
 <!-- CONTRIBUTORS -->
 
 ## <strong>Contributors</strong>
 
-Developed by: [<strong>Rachel Napier</strong>](https://github.com/RachelNapier)<br>
-Partial design from: [<strong>Traversy Media</strong>](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)<br>
-Inspirtation and images from: [<strong>Wattpad</strong>](https://www.wattpad.com/)
+Developed by: [Rachel Napier](https://github.com/RachelNapier)<br>
+Partial design from: [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)<br>
+Inspirtation and images from: [Wattpad](https://www.wattpad.com/)
 
 <!-- CONTACT -->
 
