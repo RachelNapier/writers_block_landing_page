@@ -20,7 +20,8 @@
     <a href="https://rachelnapier.github.io/writers_block_landing_page/">View Demo</a>
   </p>
 </p>
-
+<br>
+<br>
 <!-- ABOUT -->
 
 ## <strong>About This Project:</strong>
