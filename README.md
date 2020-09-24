@@ -12,7 +12,7 @@
   <h3 align="center"><strong>Writer's Block</strong></h3>
 
   <p align="center">
-        A mock of WattPad | Reading & writing webpage
+        A mock of <u>WattPad</u> | Reading & writing webpage
     <br />
     <a href="https://github.com/RachelNapier/writers_block_landing_page"><strong>Explore the docs »</strong></a>
     <br />
@@ -24,7 +24,7 @@
 
 ## <strong>About This Project:</strong>
 
-A fully responsive mock of Wattpad; a popular story-telling website geared towards imaginitave people whom all share a love for reading and/or writing. With various, features and color themes applied, instead.
+A fully responsive mock of [Wattpad](https://www.wattpad.com/); a popular story-telling website geared towards imaginitave people whom all share a love for reading and/or writing. With various, features and color themes applied, instead.
 
 <p align="center"><strong>Desktop navigation version:</strong></p>
 
@@ -32,10 +32,12 @@ A fully responsive mock of Wattpad; a popular story-telling website geared towar
 <br>
 <br>
 
-<p align="center"><strong>Mobile navigation version:</strong></p>
+<p align="center"><strong>Mobile navigation version:</strong></
+<br>
 
 ![Project Screenshot](images/screenshot-mobile.gif)
 
+</p>
 ## <strong>Built With:</strong>
 
 This project was built using Tailwindcss, a css framework. containing a series of styles that're directly applied in to the html, loosing the hastle of adding in custom styles to your stylesheets.
