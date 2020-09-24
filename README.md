@@ -66,7 +66,7 @@ To use this framwork, follow these steps taken directly from the <u>Tailwindcss 
 
 ![Tailwind Setup Screenshot](images/setup-5.png)
 
-- For more infromation on the setup, checkout the docs here → [Tailwindcss Documentations](https://tailwindcss.com/docs/installation)
+<p align="center">For more infromation on the setup, checkout the docs here → [Tailwindcss Documentations](https://tailwindcss.com/docs/installation)</p>
 
 <!-- CONTRIBUTORS -->
 
