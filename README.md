@@ -47,9 +47,9 @@ A fully responsive mock of [Wattpad](https://www.wattpad.com/); a popular story-
 
 ## <strong>Built With:</strong>
 
-This project was built using Tailwindcss, a css framework. containing a series of styles that're directly applied in to the html, loosing the hastle of adding in custom styles to your stylesheets.
-
 - [Tailwindcss](https://tailwindcss.com)
+
+This project was built using Tailwindcss, a css framework. containing a series of styles that're directly applied in to the html, loosing the hastle of adding in custom styles to your stylesheets.
 
 <!-- GETTING STARTED -->
 
@@ -69,7 +69,7 @@ To use this framwork, follow these steps taken directly from the <u>Tailwindcss 
 
 <div align="center">
 
-For more infromation on the setup, checkout the docs here → [Tailwindcss Documentations](https://tailwindcss.com/docs/installation)
+For more information on the setup, checkout the docs here → [Tailwindcss Documentations](https://tailwindcss.com/docs/installation)
 
 </div>
 
