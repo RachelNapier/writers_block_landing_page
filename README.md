@@ -79,7 +79,7 @@ For more information on the setup, checkout the docs here → [Tailwindcss Docum
 
 Developed by: [Rachel Napier](https://github.com/RachelNapier)<br>
 Partial design from: [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)<br>
-Inspirtation and images from: [Wattpad](https://www.wattpad.com/)
+Inspirtation and images from: [Wattpad](https://www.wattpad.com/) and [Unsplash](https://unsplash.com/)
 
 <!-- CONTACT -->
 
